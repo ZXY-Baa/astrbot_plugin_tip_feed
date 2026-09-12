@@ -2,7 +2,7 @@
 
 ## 简介
 
-**astrbot_plugin_tip_feed** 是一个为 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 设计的轻量级插件。  
+**astrbot_plugin_tip_feed** 是一个为 [AstrBot](https://astrbot.app/) 设计的轻量级插件。  
 当聊天消息中出现“投喂”关键词时，机器人会自动发送预设的收款码图片，方便群友或好友进行打赏、赞助。
 
 ---
