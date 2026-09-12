@@ -1,0 +1,5 @@
+name: astrbot_plugin_tip_feed
+author: ZXY_Baa
+version: 1.0.0
+description: 识别消息中出现的“投喂”并自动发送收款码图片
+repo: https://github.com/ZXY_Baa/astrbot_plugin_tip_feed
