@@ -1,0 +1,8 @@
+{
+  "qrcode_path": {
+    "description": "收款码图片路径",
+    "type": "string",
+    "default": "",
+    "hint": "支持本地文件路径（如 /path/to/qrcode.png）或图片 URL（以 http/https 开头）"
+  }
+}
