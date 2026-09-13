@@ -1,4 +1,5 @@
-name: 感谢老板赏喵饭吃
+name: astrbot_plugin_tip_feed
+display_name: 感谢老板赏喵饭吃
 author: ZXY_Baa
 version: v1.0.0-fix
 description: 监听所有消息，只要包含自定义关键词即触发（默认“投喂”）并自动发送收款码图片
