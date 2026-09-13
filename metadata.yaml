@@ -1,5 +1,13 @@
 name: astrbot_plugin_tip_feed
 author: ZXY_Baa
-version: 1.0.1-fix
+version: v1.0.0-fix
 description: 监听所有消息，只要包含自定义关键词即触发（默认“投喂”）并自动发送收款码图片
-repo: https://github.com/ZXY_Baa/astrbot_plugin_tip_feed
+repo: https://github.com/ZXY-Baa/astrbot_plugin_tip_feed
+category: 娱乐
+tags:
+  - 互动
+  - 工具
+astrbot_version: ">=3.0.0"
+support_platforms:
+  - aiocqhttp
+  - qq_official
