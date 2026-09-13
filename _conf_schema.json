@@ -1,4 +1,10 @@
 {
+  "trigger_keywords": {
+    "description": "触发关键词",
+    "type": "string",
+    "default": "投喂",
+    "hint": "多个关键词用英文逗号分隔，例如：投喂,打赏,赞助"
+  },
   "qrcode_path": {
     "description": "收款码图片路径",
     "type": "string",
