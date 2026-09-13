@@ -1,4 +1,8 @@
-# AstrBot 投喂收款码插件 说明文档
+<div align="center">
+  <img src="logo.png" alt="Logo" width="200">
+</div>
+
+#  AstrBot 投喂收款码插件 说明文档
 
 ## 简介
 
