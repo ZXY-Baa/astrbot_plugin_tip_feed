@@ -21,18 +21,6 @@
 
 ---
 
-## 文件结构
-
-```text
-astrbot_plugin_tip_feed/
-├── main.py              # 插件主逻辑
-├── metadata.yaml        # 插件元数据（名称、作者、版本等）
-├── _conf_schema.json    # 配置项定义，用于 WebUI 生成配置表单
-└── README.md            # 本说明文档
-```
-
----
-
 ## 安装步骤
 
 ### 1. 下载插件
@@ -83,28 +71,6 @@ AstrBot/data/plugins/astrbot_plugin_tip_feed/
 
 ---
 
-## 配置详解
-
-### `_conf_schema.json`
-
-```json
-{
-  "qrcode_path": {
-    "description": "收款码图片路径",
-    "type": "string",
-    "default": "",
-    "hint": "支持本地文件路径（如 /path/to/qrcode.png）或图片 URL（以 http/https 开头）"
-  }
-}
-```
-
-- **description**：配置项在 WebUI 中显示的名称。
-- **type**：数据类型，此处为字符串。
-- **default**：默认值，空字符串表示未配置。
-- **hint**：鼠标悬停或配置页面显示的提示信息。
-
----
-
 ## 使用说明
 
 ### 触发规则
@@ -120,23 +86,6 @@ AstrBot/data/plugins/astrbot_plugin_tip_feed/
 2. 若文本包含“投喂” → 读取配置 `qrcode_path`。
 3. 若路径非空 → 发送图片。
 4. 若路径为空 → 发送提示文字。
-
-### 自定义关键词
-
-如果需要修改触发关键词（例如同时支持“打赏”、“赞助”），可编辑 `main.py`：
-
-```python
-# 原代码
-if "投喂" not in message_str:
-    return
-
-# 修改为多个关键词
-keywords = ["投喂", "打赏", "赞助"]
-if not any(kw in message_str for kw in keywords):
-    return
-```
-
-修改后重载插件即可。
 
 ---
 
